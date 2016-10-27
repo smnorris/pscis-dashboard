@@ -75,6 +75,31 @@ var properties = [{
     filter: {
     type: "string",
     operators: ["contains"]}
+    },
+{
+  value: "image_view_url",
+  label: "Image url",
+  table: {
+    visible: true,
+    sortable: false
+  }
+    }
+  ,
+{
+  value: "ecocat_url",
+  label: "ECOCAT url",
+  table: {
+    visible: true,
+    sortable: false
+  }
+    },
+{
+  value: "gnis_name",
+  label: "Stream Name",
+  table: {
+    visible: true,
+    sortable: true
+  }
     }
 
 

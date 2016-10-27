@@ -59,6 +59,7 @@ ogr2ogr -f GeoJSON assets/data/pscis_dump.json \
       'http://a100.gov.bc.ca/pub/pscismap/imageViewer.do?assessmentId='||a.assessment_id as image_view_url, \
       'http://a100.gov.bc.ca/pub/acat/public/advancedSearch.do?keywords=[PSCIS'||a.project_id||']&searchKeyType=searchAll&sortColumn=title' as ecocat_url, \
       stream.stream_order, \
+      stream.gnis_name, \
       r.current_crossing_type_desc, \
       r.remediation_id, \
       r.completion_date, \
